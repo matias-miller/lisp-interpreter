@@ -5,8 +5,8 @@ A minimal LISP interpreter written in C for UNIX systems.
 ## Build and Run
 
 ```bash
-clang -o lisp_interpretor main.c
-./lisp_interpreto
+clang -o lisp_interpreter main.c
+./lisp_interpreter 
 ```
 
 ## Usage
