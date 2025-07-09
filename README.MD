@@ -1,4 +1,4 @@
-# LISP LISP Interpreter
+# LISP Interpreter
 
 A minimal LISP interpreter written in C for UNIX systems.
 
