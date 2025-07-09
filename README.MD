@@ -62,6 +62,35 @@ Common error types:
 - `$error{ArityError '/' requires exactly 2 arguments}`
 - `$error{DivisionByZeroError Division by zero}`
 
+# TODO
+
+## Missing Data Types
+- **String**: Implement 8-bit character sequences (e.g., `"hello"`, `"I'm Faris"`)
+- **Cell**: Add mutable reference cells for read/write operations
+- **64-bit Integers**: Replace double-precision floats with 64-bit integer support
+- **User-Defined Functions**: Support lambda expressions and closures
+
+## Missing Language Features
+- **Variable Binding**: Implement `let` and `define` constructs for variable scoping
+- **Special Forms**: Add control flow constructs (`if`, `cond`, etc.)
+- **Error Handling**: Expand beyond basic error type with robust error mechanisms
+- **String Operations**: Add functions for string manipulation
+- **Cell Operations**: Implement read/write operations for reference cells
+- **Proper List Operations**: Enhance list manipulation functions
+
+## Implementation Improvements
+- **64-bit Integer Arithmetic**: Transition from floating-point to 64-bit integer arithmetic
+- **Memory Management**: Develop a better allocation strategy for efficiency
+- **Parser Improvements**: Enable parsing of string literals
+- **Error Locations**: Add source position tracking for better error reporting
+- **Environment/Scope**: Implement a robust variable binding system
+
+## Future Enhancements
+- **File I/O**: Support loading and saving programs
+- **Standard Library**: Expand built-in function set
+- **Performance**: Optimize evaluation for speed
+- **Unicode Support**: Add support for international characters
+
 ## Limitations
 
 - Unix systems only (untested on other operating systems)
@@ -69,7 +98,3 @@ Common error types:
 - No variable binding
 - 1024 character input limit
 - 255 character symbol limit
-
----
-
-*UNIX-only LISP interpreter*
