@@ -1,24 +1,24 @@
-# PSI LISP Interpreter
+# LISP LISP Interpreter
 
 A minimal LISP interpreter written in C for UNIX systems.
 
 ## Build and Run
 
 ```bash
-clang -o psi lisp_interpreter.c
-./psi
+clang -o lisp_interpretor main.c
+./LISP
 ```
 
 ## Usage
 
 ```
-psi> (+ 1 2 3)
+LISP> (+ 1 2 3)
 6
-psi> (/ 10 2)
+LISP> (/ 10 2)
 5
-psi> (= 5 5)
+LISP> (= 5 5)
 #t
-psi> (quit)
+LISP> (quit)
 Quitting...
 ```
 
@@ -48,9 +48,9 @@ Quitting...
 ## Examples
 
 ```lisp
-psi> (+ (* 2 3) (/ 8 2))
+LISP> (+ (* 2 3) (/ 8 2))
 10
-psi> (= (+ 1 1) (* 1 2))
+LISP> (= (+ 1 1) (* 1 2))
 #t
 ```
 
