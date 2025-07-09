@@ -6,7 +6,7 @@ A minimal LISP interpreter written in C for UNIX systems.
 
 ```bash
 clang -o lisp_interpretor main.c
-./LISP
+./lisp_interpreto
 ```
 
 ## Usage
